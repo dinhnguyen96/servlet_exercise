@@ -1,12 +1,10 @@
-package com.example.helloservlet;
-
 import java.io.*;
 import java.time.LocalDate;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
 @WebServlet(name ="Datetime-Servlet", value = "/datetime-servlet")
-public class HelloServlet extends HttpServlet {
+public class DateTimeServlet extends HttpServlet {
 
     public void init()
     {
